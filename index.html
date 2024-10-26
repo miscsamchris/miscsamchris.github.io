@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sam's Personal Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        customGray: {
+                            1000: '#000000', // Pitch Black
+                            900: '#0D0D0D',
+                            800: '#1A1A1A',
+                            700: '#262626',
+                            600: '#333333',
+                            500: '#404040',
+                        },
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="bg-black text-white">
+
+    <!-- Introduction Section -->
+    <section class="min-h-screen flex items-center justify-center bg-customGray-1000">
+        <div class="max-w-3xl text-center px-4">
+            <h1 class="text-5xl font-bold mb-6">Hello there!</h1>
+            <p class="text-xl mb-4">I’m Sam, AKA TheLoneSamurai. I love building cool things, winning hackathons, and
+                diving deep into decentralized tech.</p>
+            <p class="text-xl">Here's a little more about what I'm up to and what I’m passionate about:</p>
+        </div>
+    </section>
+
+    <!-- What I'm Working On Section -->
+    <section class="min-h-screen flex items-center justify-center bg-customGray-900">
+        <div class="max-w-3xl px-4">
+            <h2 class="text-4xl font-semibold mb-8 text-center">What I'm Working On</h2>
+            <div class="grid grid-cols-1 gap-8">
+                <div class="bg-customGray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">StreamNil</h3>
+                    <p class="text-lg">Currently, I'm focused on StreamNil, a project that brings together the power of
+                        decentralized technology with seamless streaming solutions. It’s still in the works, but keep an
+                        eye out for updates!</p>
+                </div>
+                <div class="bg-customGray-800 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Exploring Advanced Technologies</h3>
+                    <p class="text-lg">I'm diving deeper into advanced Web3 technologies, blockchain integrations, and
+                        exploring how AI can revolutionize decentralized systems. I’m all about pushing boundaries and
+                        seeing where these technologies can take us!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I'm Looking For Section -->
+    <section class="min-h-screen flex items-center justify-center bg-customGray-800">
+        <div class="max-w-3xl px-4">
+            <h2 class="text-4xl font-semibold mb-8 text-center">What I'm Looking For</h2>
+            <div class="grid grid-cols-1 gap-8">
+                <div class="bg-customGray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Collaboration Opportunities</h3>
+                    <p class="text-lg">I’m always open to collaborating on Web3 projects, decentralized applications, AI
+                        integrations, or anything in the world of blockchain. If you're working on something innovative,
+                        I'd love to chat.</p>
+                </div>
+                <div class="bg-customGray-700 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Looking for Help</h3>
+                    <p class="text-lg">I’m looking for help with scaling Telegram bots, gamifying communities, and
+                        adding unique engagement tools. If you’ve got ideas, let's connect!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ask Me About Section -->
+    <section class="min-h-screen flex items-center justify-center bg-customGray-700">
+        <div class="max-w-3xl px-4">
+            <h2 class="text-4xl font-semibold mb-8 text-center">Ask Me About</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-customGray-600 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Telegage</h3>
+                    <p class="text-lg">My Web3-enabled Telegram community management bot.</p>
+                </div>
+                <div class="bg-customGray-600 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">MetaXRE</h3>
+                    <p class="text-lg">A Metaverse-based NFT Marketplace for artists to have global reach.</p>
+                </div>
+                <div class="bg-customGray-600 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">IdenTicket</h3>
+                    <p class="text-lg">Secure ticketing and identity verification on-chain.</p>
+                </div>
+                <div class="bg-customGray-600 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Anything Tech</h3>
+                    <p class="text-lg">AI, Web3, gamification, decentralized systems – hit me up, and let’s talk tech!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="min-h-screen flex items-center justify-center bg-customGray-600">
+        <div class="max-w-3xl text-center px-4">
+            <h2 class="text-4xl font-semibold mb-8">How to Reach Me</h2>
+            <p class="text-xl mb-4">You can reach me at <a href="mailto:misc.samchris@gmail.com"
+                    class="underline text-blue-400">misc.samchris@gmail.com</a>.</p>
+            <p class="text-xl">I’m active and always happy to discuss new ideas, collaboration opportunities, or answer
+                any questions you have.</p>
+        </div>
+    </section>
+
+    <!-- Fun Fact Section -->
+    <section class="min-h-screen flex items-center justify-center bg-customGray-500">
+        <div class="max-w-3xl text-center px-4">
+            <h2 class="text-4xl font-semibold mb-8">Fun Fact</h2>
+            <p class="text-xl">I’m a hackathon junkie with a passion for challenges! I’ve won the Move-It Hackathon
+                organized by Aptos and Chingari and I’m always looking for the next competition to dive into. Let's geek
+                out over some code!</p>
+        </div>
+    </section>
+
+</body>
+
+</html>
